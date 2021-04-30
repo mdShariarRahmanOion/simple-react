@@ -1,5 +1,5 @@
 import React from 'react';
-import Cricket from '../Cricket/Cricket';
+
 
 const Carts = (props) => {
     const cart = props.cart;
