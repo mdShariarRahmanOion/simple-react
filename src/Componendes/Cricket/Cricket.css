@@ -1,0 +1,12 @@
+.main-button{
+    background-color:goldenrod;
+    width: 150px;
+    height: 30px;
+    border: 1px solid darkgray;
+    cursor: pointer;
+}
+.player{
+    height: 30px;
+    text-align: center;
+    
+}
