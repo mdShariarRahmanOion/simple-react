@@ -1,5 +1,9 @@
 import React from 'react';
 
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faCoffee } from '@fortawesome/free-solid-svg-icons'
+import css from './Cricket.css';
+
 const Cricket = (props) => {
    const{name,salary,country,picture} = props.cricket;
    const pictureStyle= {height:'300px'}
@@ -12,8 +16,8 @@ const Cricket = (props) => {
            <img style={pictureStyle} src={picture} alt=""/>
            <p>salary: {salary}</p>
            <p><small>Nationality: {country}</small></p>
-           <button className="main-button"
-           onClick={ () => handleAddCricket(props.cricket)}>Add Cricket Member</button>
+           <button className="main-button" onClick={ () => handleAddCricket(props.cricket)}>
+           <FontAwesomeIcon icon={faCoffee} />Add Cricket Member</button>
            
        </div>
    );    
